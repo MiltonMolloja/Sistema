@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Sistema</title>
+    <title>@ViewData["Title"] - Sistema de Categoria</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -30,9 +30,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
+                    <li><a asp-area="" asp-controller="Categoria" asp-action="">Categoria</a></li>
+                    <li><a asp-area="" asp-controller="Cursos" asp-action="">Cursos</a></li>
+                    <li><a asp-area="" asp-controller="Estudiante" asp-action="">Estudiante</a></li>
+                    <li><a asp-area="" asp-controller="Instrutores" asp-action="">Instrutores</a></li>
+                    <li><a asp-area="" asp-controller="Asignaciones" asp-action="">Asignaciones</a></li>
+                    <li><a asp-area="" asp-controller="Matricula" asp-action="">Matricula</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Acerca De</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contacto</a></li>
                 </ul>
             </div>
         </div>
